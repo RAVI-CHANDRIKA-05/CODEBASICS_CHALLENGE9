@@ -31,13 +31,13 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 ### 4.1.1 Store Performance Analysis:<br>
 **1. Which are the top 10 stores in terms of Incremental Revenue(IR) generated from the promotions?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://example.com/image.jpg" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
   <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
 </div>
 
 **2. Which are the bottom 10 store when it comes to Incremental Sold Units (ISU)?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://example.com/image.jpg" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
   <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
 </div>
 
@@ -51,25 +51,25 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 ### 4.2 Promotion Type Analysis:<br>
 **1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://example.com/image.jpg" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
   <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
 </div>
 
 **2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://example.com/image.jpg" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
   <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
 </div>
 
 **3. Is there any significance difference in the performance of discount -based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://example.com/image.jpg" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/sales_lift.JPG" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
   <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
 </div>
 
 **4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://example.com/image.jpg" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 100px; height: auto; margin-right: 10px;">
   <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
 </div>
 
