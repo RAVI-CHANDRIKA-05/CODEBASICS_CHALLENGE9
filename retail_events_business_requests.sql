@@ -5,7 +5,7 @@ USE retail_events_db;
 -- This information will help us to identify high-value products that are currently being heavily discounted, 
 -- which can be useful for evaluating our pricing and promotion strategies.
 
-SELECT DISTINCT(p.product_name)
+SELECT DISTINCT(p.product_name), e.base_price
  FROM fact_events e
 JOIN dim_products p
 ON p.product_code = e.product_code
@@ -31,9 +31,10 @@ RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
 
+WITH REVENUE AS(
 SELECT 
     c.campaign_name,
-    ROUND(SUM(e.base_price * e.quantity_sold_before_promo) / 1000000,2) AS 'Before_Campaign_Total_Revenue(Million)',
+    ROUND(SUM(e.base_price * e.quantity_sold_before_promo) / 1000000,2) AS 'Before_Campaign_Total_Revenue_Million',
     ROUND(
 		SUM(
 			CASE 
@@ -44,11 +45,14 @@ SELECT
 				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.quantity_sold_after_promo * 2)) * 0.5
 				ELSE 0
 			END
-		) / 1000000,2) AS 'After_Campaign_Total_Revenue(Million)'
+		) / 1000000,2) AS 'After_Campaign_Total_Revenue_Million'
 FROM fact_events e
 JOIN dim_campaigns c
 ON e.campaign_id = c.campaign_id
-GROUP BY c.campaign_name;
+GROUP BY c.campaign_name
+)
+SELECT *, After_Campaign_Total_Revenue_Million - Before_Campaign_Total_Revenue_Million AS Incremental_Revenue_Million
+FROM REVENUE;
 
 -- 4. Produce a Report that calculates the Incremental Sold Quantity (ISU%) for each category during the diwali campaign.
 -- Additionally, provide rankings for the categories based on their ISU%. The report will include three Key fileds: category, ISU% and Rank Order.
@@ -63,7 +67,7 @@ RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
 WITH Diwali_Campaign AS (
     SELECT 
         p.category,
-        SUM(e.quantity_sold_after_promo) AS total_quantity_sold_after_promo
+        SUM(e.quantity_sold_after_promo*2) AS total_quantity_sold_after_promo
     FROM fact_events e
     JOIN dim_campaigns c
     ON e.campaign_id = c.campaign_id
@@ -126,7 +130,7 @@ WITH Total_Revenue AS (
 SELECT 
     product_name,
     category,
-    ROUND(((After_Campaign_Total_Revenue - Before_Campaign_Total_Revenue) / Before_Campaign_Total_Revenue) * 100,2) AS IR_percentage
+    ROUND(((After_Campaign_Total_Revenue - Before_Campaign_Total_Revenue)* 100 / Before_Campaign_Total_Revenue) ,2) AS IR_percentage
 FROM Total_Revenue
-ORDER BY IR_percentage DESC
+ORDER BY ROUND(((After_Campaign_Total_Revenue - Before_Campaign_Total_Revenue)* 100 / Before_Campaign_Total_Revenue) ,2) DESC
 LIMIT 5;
