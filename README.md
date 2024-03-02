@@ -1,15 +1,10 @@
----
-layout: default
-title: **AtliQ Mart Festival Sales Promotional Analysis**
-table_of_contents: true
----
+{% include toc.html %}
 
 **AtliQ Mart Festival Sales Promotional Analysis**
 
 **Codebasics Resume Project Challenge – Data Analytics Project**
 
 The Codebasics Resume Project Challenge is an engaging initiative hosted by Codebasics. Drawing participants from around the globe, this challenge showcases the skills and talents of aspiring data analysts. Submissions are reviewed by the Codebasics team and shared with a global audience on LinkedIn, offering participants valuable exposure and recognition.
-
 
 ---
 **Table of Contents**
@@ -35,21 +30,21 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 # 4. Analysis and Insights
 ## 4.1 Recommened Insights
 
-### 4.1.1 Store Performance Analysis:
-**1. Which are the top 10 stores in terms of Incremental Revenue(IR) generated from the promotions?**
-**2. Which are the bottom 10 store when it comes to Incremental Sold Units (ISU)?**
-**3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**
+### 4.1.1 Store Performance Analysis:<br>
+**1. Which are the top 10 stores in terms of Incremental Revenue(IR) generated from the promotions?**<br>
+**2. Which are the bottom 10 store when it comes to Incremental Sold Units (ISU)?**<br>
+**3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**<br>
 
-### 4.2 Promotion Type Analysis:
-**1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**
-**2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**
-**3. Is there any significance difference in the performance of discount -based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?**
-**4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**
+### 4.2 Promotion Type Analysis:<br>
+**1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**<br>
+**2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**<br>
+**3. Is there any significance difference in the performance of discount -based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?**<br>
+**4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**<br>
 
-### 4.3 Product and Category Analysis:
-**1. Which product categories saw the most significant lift in sales from the promotions?**
-**2. Are there specific products that respond exceptionally well or poorly to promotions?**
-**3. What is the correlation between product categoy and promotion type effectiveness?**
+### 4.3 Product and Category Analysis:<br>
+**1. Which product categories saw the most significant lift in sales from the promotions?**<br>
+**2. Are there specific products that respond exceptionally well or poorly to promotions?**<br>
+**3. What is the correlation between product categoy and promotion type effectiveness?**<br>
 
 ## 4.2 Business Requests
 
