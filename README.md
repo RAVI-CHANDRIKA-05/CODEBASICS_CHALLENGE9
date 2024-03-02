@@ -7,7 +7,11 @@ The Codebasics Resume Project Challenge is an engaging initiative hosted by Code
 
 **Table of Contents**
 
-[TOCM]
+{% for heading in site.content %}
+{% if heading.level == 2 %}
+- [{{ heading.title }}](#{{ heading.slug }})
+{% endif %}
+{% endfor %}
 
 ---
 # 1. About The Project
@@ -63,8 +67,7 @@ FROM dim_stores
 GROUP BY city
 ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 ~~~~
-
-<br><br><br><br>
+<br><br>
 
 **3. Generate a report that displays each campaign alogn with the total revenue generated before and after the campaign?**
 
