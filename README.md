@@ -33,13 +33,13 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
 The best stores are in Bengaluru, Chennai, and Mysuru. In Bengaluru, 4 out of 10 stores are in the top 10. Chennai also has 4 out of its 8 stores in the top 10. Mysuru has 2 out of its 4 stores in the top 10.
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 **2. Which are the bottom 10 store when it comes to Incremental Sold Units (ISU)?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
 All three stores from Mangalore are among the bottom 10 for Incremental Sold Units (ISU). Similarly, both stores from Trivandrum are also in the bottom 10. Additionally, two out of four stores from Visakhapatnam are also in the bottom 10 for ISU.
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 **3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**<br>
 
