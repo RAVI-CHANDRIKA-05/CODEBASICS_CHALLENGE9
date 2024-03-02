@@ -47,7 +47,7 @@ ON p.product_code = e.product_code
 WHERE e.base_price >500 
 AND e.promo_type = 'BOGOF';
 ~~~~
-![](https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL1.JPG)
+![](https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/assets/images/SQL1.JPG)
 
 Atliq_Double_Bedsheet_set and Atliq_waterproof_Immersion_Rod are the two products with base price greater than 500 which are featured under BOGOF (Buy One Get One Free) promo  type.<br>
 <br><br>
