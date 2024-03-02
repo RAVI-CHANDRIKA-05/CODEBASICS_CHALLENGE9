@@ -30,37 +30,37 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 
 ### 4.1.1 Store Performance Analysis:<br>
 **1. Which are the top 10 stores in terms of Incremental Revenue(IR) generated from the promotions?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 400px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 400px; height: auto; margin-right: 10px;">
 The best stores are in Bengaluru, Chennai, and Mysuru. In Bengaluru, 4 out of 10 stores are in the top 10. Chennai also has 4 out of its 8 stores in the top 10. Mysuru has 2 out of its 4 stores in the top 10.
 
 **2. Which are the bottom 10 store when it comes to Incremental Sold Units (ISU)?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 400px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 400px; height: auto; margin-right: 10px;">
 All three stores from Mangalore are among the bottom 10 for Incremental Sold Units (ISU). Similarly, both stores from Trivandrum are also in the bottom 10. Additionally, two out of four stores from Visakhapatnam are also in the bottom 10 for ISU.
 
 **3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**<br>
-<img align="right" src="https://example.com/image.jpg" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://example.com/image.jpg" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 Generally, the top-performing stores are located in Tier 1 cities like Bengaluru and Chennai. However, stores in Tier 2 cities have not generated as much revenue.
 
 ### 4.2 Promotion Type Analysis:<br>
 **1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The top promotion types that resulted in the highest incremental revenue are "500 Cashback" and "BOGOF" (Buy One Get One Free).
 
 **2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The "25% off" and "50% off" promotion types are among the least effective in terms of driving incremental sold units. In fact, the "25% off" promotion type has a negative impact, indicating a decrease in sales. This suggests that these promotion types may not have been successful in attracting customers or encouraging additional purchases compared to other promotion types.
 
 **3. Is there any significance difference in the performance of discount -based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 It seems that 500 cashback and BOGOF promotions have shown better performance compared to discount-based promotions. These types of promotions have been effective in driving sales or attracting customers, indicating their significance in boosting revenue and engaging customers more effectively.
 
 **4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. This means that it effectively increases the number of units sold while still preserving profitability. In other words, it attracts customers to make purchases without significantly compromising the profit margins of the products.
 
 ### 4.3 Product and Category Analysis:<br>
 **1. Which product categories saw the most significant lift in sales from the promotions?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/sales_lift_cat.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/sales_lift_cat.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The home appliance, combo 1, and home care categories experienced the most significant increase in sales as a result of the promotions. 
 
 **2. Are there specific products that respond exceptionally well or poorly to promotions?**<br>
@@ -70,7 +70,7 @@ The home appliance, combo 1, and home care categories experienced the most signi
 Certain products respond exceptionally well or poorly to promotions. For example, products like the waterproof immersion rod, high glo 15w LED bulb, and home essentials 8-product combo performed exceptionally well during the promotions. On the other hand, products belonging to the personal care category did not perform as well. This indicates that the effectiveness of promotions can vary significantly depending on the product category and the specific products being promoted.
 
 **3. What is the correlation between product categoy and promotion type effectiveness?**<br>
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/prod_cate_effectivenss.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
+<img align="left" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/prod_cate_effectivenss.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 Certain product categories, such as home appliances, home care, grocery, and staples, performed well in BOGOF promotions, indicating that this promotion type was effective in driving sales within these categories. Conversely, personal care products did not perform well, even with a 25% discount offer. 
 
 ## 4.2 Business Requests
