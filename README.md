@@ -71,7 +71,7 @@ It seems that 500 cashback and BOGOF promotions have shown better performance co
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. This means that it effectively increases the number of units sold while still preserving profitability. In other words, it attracts customers to make purchases without significantly compromising the profit margins of the products.
-<br><br><br><br><br><br>
+<br><br><br><br><br>
 
 ### 4.3 Product and Category Analysis:<br>
 
@@ -93,7 +93,7 @@ Certain products respond exceptionally well or poorly to promotions. For example
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/prod_cate_effectivenss.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 Certain product categories, such as home appliances, home care, grocery, and staples, performed well in BOGOF promotions, indicating that this promotion type was effective in driving sales within these categories. Conversely, personal care products did not perform well, even with a 25% discount offer. 
-<br><br><br><br><br>
+<br><br><br><br>
 
 ## 4.2 Business Requests
 
