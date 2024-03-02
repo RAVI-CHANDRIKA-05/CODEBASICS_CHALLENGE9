@@ -47,19 +47,20 @@ ON p.product_code = e.product_code
 WHERE e.base_price >500 
 AND e.promo_type = 'BOGOF';
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL1.JPG" alt="image" />
+![](https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL1.JPG)
 
 Atliq_Double_Bedsheet_set and Atliq_waterproof_Immersion_Rod are the two products with base price greater than 500 which are featured under BOGOF (Buy One Get One Free) promo  type.<br>
 <br><br>
 
 **2. Generate a report that provides an overview of the number of stores in each city.**
+<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL2.JPG" alt="image" />
+
 ~~~~sql
 SELECT city AS City, COUNT(DISTINCT(store_id)) AS Store_Count
 FROM dim_stores
 GROUP BY city
 ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL2.JPG" alt="image" />
 
 In terms of store count, Bengaluru leads with 10 stores, followed by Chennai with 8 stores, and Hyderabad with 7 stores.<br>
 <br><br><br>
