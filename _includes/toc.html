@@ -1,8 +1,0 @@
-<nav class="toc">
-    <ul>
-      {% for heading in page.content | scan:'<h2 id="([^"]+)">' %}
-        <li><a href="#{{ heading[0] }}">{{ heading[0] }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
-  

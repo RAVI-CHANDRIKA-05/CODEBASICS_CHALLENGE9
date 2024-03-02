@@ -1,6 +1,4 @@
-{% include toc.html %}
-
-**AtliQ Mart Festival Sales Promotional Analysis**
+# AtliQ Mart Festival Sales Promotional Analysis
 
 **Codebasics Resume Project Challenge – Data Analytics Project**
 
