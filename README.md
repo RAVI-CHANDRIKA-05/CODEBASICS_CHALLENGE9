@@ -40,9 +40,9 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 
 **1. Provide a list of products with base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free).**
 
-<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/product_name.JPG" alt="image" />
-
+<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/product_name.JPG" alt="image" /> <br>
 Atliq_Double_Bedsheet_set and Atliq_waterproof_Immersion_Rod are the two products with base price greater than 500 which are featured under BOGOF (Buy One Get One Free) promo  type.<br>
+
 ~~~~sql
 SELECT DISTINCT(p.product_name)
  FROM fact_events e
@@ -53,8 +53,9 @@ AND e.promo_type = 'BOGOF';
 ~~~~
 
 **2. Generate a report that provides an overview of the number of stores in each city.**
-<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/city_store.JPG" alt="image" />
-In terms of store count, Bengaluru leads with 10 stores, followed by Chennai with 8 stores, and Hyderabad with 7 stores.
+<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/city_store.JPG" alt="image" /><br>
+In terms of store count, Bengaluru leads with 10 stores, followed by Chennai with 8 stores, and Hyderabad with 7 stores.<br>
+
 ~~~~sql
 SELECT city AS City, COUNT(DISTINCT(store_id)) AS Store_Count
 FROM dim_stores
@@ -62,9 +63,13 @@ GROUP BY city
 ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 ~~~~
 
-<br><br><br>
+<br><br><br><br>
 
 **3. Generate a report that displays each campaign alogn with the total revenue generated before and after the campaign?**
+
+<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/campaign_name.JPG" alt="image" /><br>
+Diwali campaign generated the highest incremental revenue at 114.25 million, while the Sankranthi campaign yielded 72.20 million.<br>
+
 ~~~~sql
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
@@ -91,10 +96,12 @@ JOIN dim_campaigns c
 ON e.campaign_id = c.campaign_id
 GROUP BY c.campaign_name;
 ~~~~
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/campaign_name.JPG" alt="image" />
-Diwali campaign generated the highest incremental revenue at 114.25 million, while the Sankranthi campaign yielded 72.20 million.
 
 **4. Produce a Report that calculates the Incremental Sold Quantity (ISU%) for each category during the diwali campaign. Additionally, provide rankings for the categories based on their ISU%.**
+
+<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/category.JPG" alt="image" /><br>
+Home Appliances category exhibits the highest ISU% increase, followed by the Combo1 category. Notably, there is a remarkable 244.23% ISU% surge in the Home Appliances category, while Combo1 follows closely behind with a 202.36% increase.<br>
+
 ~~~~sql
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
@@ -136,11 +143,12 @@ FROM Diwali_Campaign dc
 JOIN Total_Sold_Before tsb
 ON dc.category = tsb.category;
 ~~~~
-<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/category.JPG" alt="image" />
-
- Home Appliances category exhibits the highest ISU% increase, followed by the Combo1 category. Notably, there is a remarkable 244.23% ISU% surge in the Home Appliances category, while Combo1 follows closely behind with a 202.36% increase.
 
 **5. Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns.** 
+
+<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products.JPG" alt="image" /><br>
+The table shows, top 5 products ranked by Incremental Revenue Percentage across all campaigns. Atlique_waterproof_Immersion_Rod leads with an IR% of 266.19%, closely followed by Atliq_High_Glo_15W_LED_Bulb with an IR% of 262.98%.<br>
+
 ~~~~sql
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
@@ -176,5 +184,4 @@ FROM Total_Revenue
 ORDER BY IR_percentage DESC
 LIMIT 5;
 ~~~~
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products.JPG" alt="image" />
-The table shows, top 5 products ranked by Incremental Revenue Percentage across all campaigns. Atlique_waterproof_Immersion_Rod leads with an IR% of 266.19%, closely followed by Atliq_High_Glo_15W_LED_Bulb with an IR% of 262.98%.
+
