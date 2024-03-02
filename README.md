@@ -1,3 +1,6 @@
+
+**AtliQ Mart Festival Sales Promotional Analysis**
+
 **Codebasics Resume Project Challenge – Data Analytics Project**
 
 The Codebasics Resume Project Challenge is an engaging initiative hosted by Codebasics. Drawing participants from around the globe, this challenge showcases the skills and talents of aspiring data analysts. Submissions are reviewed by the Codebasics team and shared with a global audience on LinkedIn, offering participants valuable exposure and recognition.
@@ -44,7 +47,7 @@ ON p.product_code = e.product_code
 WHERE e.base_price >500 
 AND e.promo_type = 'BOGOF';
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/assets/images/SQL1.JPG" alt="image" />
+<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL1.JPG" alt="image" />
 
 Atliq_Double_Bedsheet_set and Atliq_waterproof_Immersion_Rod are the two products with base price greater than 500 which are featured under BOGOF (Buy One Get One Free) promo  type.<br>
 <br><br>
@@ -56,7 +59,7 @@ FROM dim_stores
 GROUP BY city
 ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/assets/images/SQL2.JPG" alt="image" />
+<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL2.JPG" alt="image" />
 
 In terms of store count, Bengaluru leads with 10 stores, followed by Chennai with 8 stores, and Hyderabad with 7 stores.<br>
 <br><br><br>
@@ -88,7 +91,7 @@ JOIN dim_campaigns c
 ON e.campaign_id = c.campaign_id
 GROUP BY c.campaign_name;
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/assets/images/SQL3.JPG" alt="image" />
+<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL3.JPG" alt="image" />
 
 Diwali campaign generated the highest incremental revenue at 114.25 million, while the Sankranthi campaign yielded 72.20 million.
 <br>
@@ -136,7 +139,7 @@ FROM Diwali_Campaign dc
 JOIN Total_Sold_Before tsb
 ON dc.category = tsb.category;
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/assets/images/SQL4.JPG" alt="image" />
+<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL4.JPG" alt="image" />
 
  Home Appliances category exhibits the highest ISU% increase, followed by the Combo1 category. Notably, there is a remarkable 244.23% ISU% surge in the Home Appliances category, while Combo1 follows closely behind with a 202.36% increase.
 <br>
@@ -178,7 +181,7 @@ FROM Total_Revenue
 ORDER BY IR_percentage DESC
 LIMIT 5;
 ~~~~
-<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/assets/images/SQL5.JPG" alt="image" />
+<img align="right" src="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/docs/assets/images/SQL5.JPG" alt="image" />
 
 The table shows, top 5 products ranked by Incremental Revenue Percentage across all campaigns. Atlique_waterproof_Immersion_Rod leads with an IR% of 266.19%, closely followed by Atliq_High_Glo_15W_LED_Bulb with an IR% of 262.98%.
 <br>
