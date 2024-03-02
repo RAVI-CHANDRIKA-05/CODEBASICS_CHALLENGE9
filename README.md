@@ -5,6 +5,8 @@
 
 The Codebasics Resume Project Challenge is an engaging initiative hosted by Codebasics. Drawing participants from around the globe, this challenge showcases the skills and talents of aspiring data analysts. Submissions are reviewed by the Codebasics team and shared with a global audience on LinkedIn, offering participants valuable exposure and recognition.
 
+{% include toc.html %}
+
 ---
 **Table of Contents**
 
