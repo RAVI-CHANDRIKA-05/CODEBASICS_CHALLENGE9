@@ -53,6 +53,7 @@ AND e.promo_type = 'BOGOF';
 ~~~~
 
 **2. Generate a report that provides an overview of the number of stores in each city.**
+
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/city_store.JPG" alt="image" /><br>
 In terms of store count, Bengaluru leads with 10 stores, followed by Chennai with 8 stores, and Hyderabad with 7 stores.<br>
 
@@ -99,7 +100,7 @@ GROUP BY c.campaign_name;
 
 **4. Produce a Report that calculates the Incremental Sold Quantity (ISU%) for each category during the diwali campaign. Additionally, provide rankings for the categories based on their ISU%.**
 
-<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/category.JPG" alt="image" /><br>
+<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/category.JPG" alt="image" /><br>
 Home Appliances category exhibits the highest ISU% increase, followed by the Combo1 category. Notably, there is a remarkable 244.23% ISU% surge in the Home Appliances category, while Combo1 follows closely behind with a 202.36% increase.<br>
 
 ~~~~sql
