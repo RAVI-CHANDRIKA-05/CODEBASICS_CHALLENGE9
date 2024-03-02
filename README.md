@@ -31,46 +31,59 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 ### 4.1.1 Store Performance Analysis:<br>
 **1. Which are the top 10 stores in terms of Incremental Revenue(IR) generated from the promotions?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 400px; height: auto; margin-right: 10px;">
+  <div>
+    <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  </div>
 </div>
 
 **2. Which are the bottom 10 store when it comes to Incremental Sold Units (ISU)?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
-  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 400px; height: auto; margin-right: 10px;">
+  <div>
+    <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  </div>
 </div>
 
 **3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
   <img src="https://example.com/image.jpg" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Typically the top performing stres belong to Bengaluru or Chennai, Tier 1 cities. Stores belonging to Tier 2 cities have not generated much revenue.
+  <div>
+    <p>Typically the top performing stres belong to Bengaluru or Chennai, Tier 1 cities. Stores belonging to Tier 2 cities have not generated much revenue.
   Atliq_Farm_Chakki_Atta (1KG), Atliq_Home_Essential_8_Product_Combo, Atliq_waterproof_Immersion_Rod</p>
+  </div>
 </div>
-
 ### 4.2 Promotion Type Analysis:<br>
 **1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
   <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  <div>
+    <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  </div>
 </div>
 
 **2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
   <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  <div>
+    <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  </div>
 </div>
 
 **3. Is there any significance difference in the performance of discount -based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
   <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/sales_lift.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  <div>
+    <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  </div>
 </div>
 
 **4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**<br>
 <div style="display: flex; align-items: center; border: 1px solid #ccc; padding: 10px;">
   <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-  <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  <div>
+    <p>Your text goes here. You can add more content, format it using Markdown, and style it as needed.</p>
+  </div>
 </div>
 
 ### 4.3 Product and Category Analysis:<br>
