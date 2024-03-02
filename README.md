@@ -5,15 +5,20 @@
 
 The Codebasics Resume Project Challenge is an engaging initiative hosted by Codebasics. Drawing participants from around the globe, this challenge showcases the skills and talents of aspiring data analysts. Submissions are reviewed by the Codebasics team and shared with a global audience on LinkedIn, offering participants valuable exposure and recognition.
 
+---
 **Table of Contents**
 
-{% for heading in site.content %}
-{% if heading.level == 2 %}
-- [{{ heading.title }}](#{{ heading.slug }})
-{% endif %}
-{% endfor %}
+1. [About The Project](#1-about-the-project)
+2. [Live Interactive Dashboard](#2-live-interactive-dashboard)
+3. [Video Presentation Of The Project](#3-video-presentation-of-the-project)
+4. [Analysis and Insights](#4-analysis-and-insights)
+   1. [Recommended Insights](#4.1-recommended-insights)
+      - [Store Performance Analysis](#4.1.1-store-performance-analysis)
+   2. [Promotion Type Analysis](#4.2-promotion-type-analysis)
+   3. [Product and Category Analysis](#4.3-product-and-category-analysis)
 
 ---
+
 # 1. About The Project
 The project is about an imaginary retail giant called AtliQ Mart.
 
