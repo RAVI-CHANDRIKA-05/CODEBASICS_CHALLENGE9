@@ -38,7 +38,7 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
 The best stores are in Bengaluru, Chennai, and Mysuru. In Bengaluru, 4 out of 10 stores are in the top 10. Chennai also has 4 out of its 8 stores in the top 10. Mysuru has 2 out of its 4 stores in the top 10.
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 *******************************************
 
@@ -46,7 +46,7 @@ The best stores are in Bengaluru, Chennai, and Mysuru. In Bengaluru, 4 out of 10
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom10stores_isu.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
 All three stores from Mangalore are among the bottom 10 for Incremental Sold Units (ISU). Similarly, both stores from Trivandrum are also in the bottom 10. Additionally, two out of four stores from Visakhapatnam are also in the bottom 10 for ISU.
-<br><br><br>
+<br><br><br><br><br>
 
 *******************************************
 
@@ -65,7 +65,7 @@ Generally, the top-performing stores are located in Tier 1 cities like Bengaluru
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The top promotion types that resulted in the highest incremental revenue are "500 Cashback" and "BOGOF" (Buy One Get One Free).
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 *******************************************
 
@@ -73,7 +73,7 @@ The top promotion types that resulted in the highest incremental revenue are "50
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The "25% off" and "50% off" promotion types are among the least effective in terms of driving incremental sold units. In fact, the "25% off" promotion type has a negative impact, indicating a decrease in sales. This suggests that these promotion types may not have been successful in attracting customers or encouraging additional purchases compared to other promotion types.
-<br><br>
+<br><br><br><br>
 
 *******************************************
 
@@ -81,7 +81,7 @@ The "25% off" and "50% off" promotion types are among the least effective in ter
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 It seems that 500 cashback and BOGOF promotions have shown better performance compared to discount-based promotions. These types of promotions have been effective in driving sales or attracting customers, indicating their significance in boosting revenue and engaging customers more effectively.
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 *******************************************
 
@@ -100,7 +100,7 @@ It seems that 500 cashback and BOGOF promotions have shown better performance co
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/sales_lift_cat.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The home appliance, combo 1, and home care categories experienced the most significant increase in sales as a result of the promotions. 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 *******************************************
 
@@ -118,7 +118,7 @@ Certain products respond exceptionally well or poorly to promotions. For example
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/prod_cate_effectivenss.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 Certain product categories, such as home appliances, home care, grocery, and staples, performed well in BOGOF promotions, indicating that this promotion type was effective in driving sales within these categories. Conversely, personal care products did not perform well, even with a 25% discount offer. 
-<br><br><br>
+<br><br><br><br><br>
 
 *******************************************
 
