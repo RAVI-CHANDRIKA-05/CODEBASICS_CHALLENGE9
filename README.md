@@ -330,6 +330,7 @@ Note: A database named `retail_events_db` includes all the tables mentioned abov
 </div>
 
 
+
 # 6. Project Execution:
 
 ## 6.1 Tools Used:
