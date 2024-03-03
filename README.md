@@ -47,7 +47,7 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div><br>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?utm_content=DAF-Yua7_SE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">AtliQ Mart  Festival Sales Promotional Analysis</a> by Ravi Chandrika B
+<a href="link" target="_blank" rel="noopener">AtliQ Mart  Festival Sales Promotional Analysis</a> by Ravi Chandrika B
 
 #  4. Video Presentation Of The Project
 
