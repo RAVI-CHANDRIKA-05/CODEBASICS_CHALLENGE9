@@ -9,21 +9,22 @@ The Codebasics Resume Project Challenge is an engaging initiative hosted by Code
 
 1. [About The Project](#1-about-the-project)
 2. [Live Interactive Dashboard](#2-live-interactive-dashboard)
-3. [Video Presentation Of The Project](#3-video-presentation-of-the-project)
-4. [Analysis and Insights](#4-analysis-and-insights)
-    1. [Recommended Insights](#4.1-recommended-insights)
-        - [Store Performance Analysis](#4.1.1-store-performance-analysis)
-        - [Promotion Type Analysis](#4.2-promotion-type-analysis)
-        - [Product and Category Analysis](#4.3-product-and-category-analysis)
-    2. [Business Requests](#4.2-business-requests)
-5. [Dataset Provided by Codebasics](#5-dataset-provided-by-codebasics)
-6. [Project Execution](#6-project-execution)
-    1. [Tools Used](#6.1-tools-used)
-    2. [Prodecure Followed for Addressing Recommended Insights](#6.2-procedure-followed-for-addressing-recommended-insights)
-        - [Data Preparation](#6.2.1-data-preperation)
-        - [Data Modeling](#6.2.2-data-modeling)
-        - [Dashboard Creation](#6.2.3-dasahboard-creation)
-    3. [Prodecure Followed for Addressing Business Requests](#6.2-procedure-followed-for-addressing-business-requests)
+3. [Presentation](#23-presentation)
+4. [Video Presentation Of The Project](#3-video-presentation-of-the-project)
+5. [Analysis and Insights](#5-analysis-and-insights)
+    1. [Recommended Insights](#5.1-recommended-insights)
+        - [Store Performance Analysis](#5.1.1-store-performance-analysis)
+        - [Promotion Type Analysis](#5.1.2-promotion-type-analysis)
+        - [Product and Category Analysis](#5.1.3-product-and-category-analysis)
+    2. [Business Requests](#5.2-business-requests)
+6. [Dataset Provided by Codebasics](#6-dataset-provided-by-codebasics)
+7. [Project Execution](#7-project-execution)
+    1. [Tools Used](#7.1-tools-used)
+    2. [Prodecure Followed for Addressing Recommended Insights](#7.2-procedure-followed-for-addressing-recommended-insights)
+        - [Data Preparation](#7.2.1-data-preperation)
+        - [Data Modeling](#7.2.2-data-modeling)
+        - [Dashboard Creation](#7.2.3-dasahboard-creation)
+    3. [Prodecure Followed for Addressing Business Requests](#7.3-procedure-followed-for-addressing-business-requests)
 
 ---
 
@@ -32,7 +33,12 @@ The project is about an imaginary retail giant called AtliQ Mart.
 
 AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of India. All their 50 stores ran a massive promotion during the Diwali 2023 and Sankranti 2024 (festive time in India) on their AtliQ branded products. <br>Through this exercise the sales director wants to understand which promotions did well and which did not so that they can make informed decisions for their next promotional period. <br>
 
-# 2. Live Interactive Dashboard and Presentation
+# 2. Live Interactive Dashboard
+
+
+
+
+# 3. Presentation
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -40,16 +46,16 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
   <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
-</div>
+</div><br>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?utm_content=DAF-Yua7_SE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">AtliQ Mart  Festival Sales Promotional Analysis</a> by Ravi Chandrika B
 
-#  3. Video Presentation Of The Project
+#  4. Video Presentation Of The Project
 
-# 4. Analysis and Insights
+# 5. Analysis and Insights
 
-## 4.1 Recommened Insights
+## 5.1 Recommened Insights
 
-### 4.1.1 Store Performance Analysis:<br>
+### 5.1.1 Store Performance Analysis:<br>
 **1. Which are the top 10 stores in terms of Incremental Revenue(IR) generated from the promotions?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/top10store_incrementalrevenue.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
@@ -74,7 +80,7 @@ Stores located in Tier 1 cities like Bengaluru and Chennai exhibit superior perf
 
 *******************************************
 
-### 4.2 Promotion Type Analysis:<br>
+### 5.1.2 Promotion Type Analysis:<br>
 *******************************************
 
 **1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**<br>
@@ -109,7 +115,7 @@ The top promotion types that resulted in the highest incremental revenue are "50
 
 *******************************************
 
-### 4.3 Product and Category Analysis:<br>
+### 5.1.3 Product and Category Analysis:<br>
 *******************************************
 
 **1. Which product categories saw the most significant lift in sales from the promotions?**<br>
@@ -138,7 +144,7 @@ Certain product categories, such as home appliances, home care, grocery, and sta
 
 *******************************************
 
-## 4.2 Business Requests
+## 5.2 Business Requests
 
 **1. Provide a list of products with base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free).**
 
@@ -311,7 +317,7 @@ LIMIT 5;
 
 *******************************************
 
-# 5. Dataset Provided by Codebasics:
+# 6. Dataset Provided by Codebasics:
 **Thanks to Codebasics for providing this wonderful challenge.**<br>
 Here is the link to this challenge: [CodeBasics Resume Project Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 
@@ -322,7 +328,7 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 4. fact_events
 
 
-## 5.1 Column Description for dim_campaigns:
+## 6.1 Column Description for dim_campaigns:
 - campaign_id: Unique identifier for each promotional campaign.
 - campaign_name: Descriptive name of the campaign (e.g., Diwali, Sankranti).
 - start_date: The date on which the campaign begins, formatted as DD-MM-YYYY.
@@ -332,7 +338,7 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 *******************************************
 
 
-## 5.2 Column Description for dim_products:
+## 6.2 Column Description for dim_products:
 - product_code: Unique code assigned to each product for identification.
 - product_name: The full name of the product, including brand and specifics (e.g., quantity, size).
 - category: The classification of the product into broader categories such as Grocery & Staples, Home Care, Personal Care, Home Appliances, etc.
@@ -342,7 +348,7 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 
 
 
-## 5.3 Column Description for dim_stores:
+## 6.3 Column Description for dim_stores:
 - store_id: Unique code identifying each store location.
 - city: The city where the store is located, indicating the geographical market.
 
@@ -351,7 +357,7 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 
 
 
-## 5.4 Column Description for fact_events:
+## 6.4 Column Description for fact_events:
 - event_id: Unique identifier for each sales event.
 - store_id: Refers to the store where the event took place, linked to the dim_stores table.
 - campaign_id: Indicates the campaign under which the event was recorded, linked to the dim_campaigns table.
@@ -364,17 +370,17 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 
 *******************************************
 
-# 6. Project Execution:
+# 7. Project Execution:
 
-## 6.1 Tools Used:
+## 7.1 Tools Used:
 
 MySQL to find answers to business questions.
 Power BI for data visualization and dashboard creation.
 Excel for data preprocessing and transformation.
 
-## 6.2 Prodecure Followed for Addressing Recommended Insights:
+## 7.2 Prodecure Followed for Addressing Recommended Insights:
 
-### 6.2.1 Data Preparation:
+### 7.2.1 Data Preparation:
 
 * Imported the extracted data (csv file) into Excel for initial preprocessing.
 * Cleaned and transformed the data as needed, ensuring consistency and accuracy.
@@ -387,18 +393,18 @@ Note: A database named `retail_events_db` includes all the tables mentioned abov
     <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended_Insights.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:40%;"></a>
 </div>
 
-### 6.2.2 Data Modeling:
+### 7.2.2 Data Modeling:
 
 * Designed the data model in Power BI, ensuring the relationships between tables is correct.
 * Performed required transformations of data.
 * Changed the Removed Atliq_from products for better visualization.
 
-### 6.2.3 Dashboard Creation:
+### 7.2.3 Dashboard Creation:
 
 * Utilized Power BI's visualization tools to create interactive and insightful dashboards.
 * Incorporated relevant charts, graphs, and slicers to analyze sales performance, campaign effectiveness, and product trends.
 
-## 6.3 Prodecure Followed for Addressing Business Requests:
+## 7.3 Prodecure Followed for Addressing Business Requests:
 
 * Extracted data from the MySQL database by crafting SQL queries tailored to the specific data requirements. 
 * Formulated SQL queries to retrieve essential information for fulfilling Business Requests effectively.
