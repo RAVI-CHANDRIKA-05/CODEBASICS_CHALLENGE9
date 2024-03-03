@@ -321,7 +321,7 @@ Note: A database named `retail_events_db` includes all the tables mentioned abov
 
 <div style="display:flex;">
     <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/ad-hoc-requests.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/business_request.JPG" alt="Image 1" style="width:50%;"></a>    
-    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended%20Insights.pdf"><img src="https://raw.githubusercontent.com/asda/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:50%;"></a>
+    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended_Insights.pdf"><img src="https://raw.githubusercontent.com/asda/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:50%;"></a>
 </div>
 
 
