@@ -89,7 +89,7 @@ It seems that 500 cashback and BOGOF promotions have shown better performance co
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. This means that it effectively increases the number of units sold while still preserving profitability. In other words, it attracts customers to make purchases without significantly compromising the profit margins of the products.
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 *******************************************
 
