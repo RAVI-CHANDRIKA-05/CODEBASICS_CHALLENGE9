@@ -25,6 +25,7 @@ ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 -- The report includes three key fields: campaign_name, total_revenue(before_promotion) , total_revenue(after_promotion).
 -- This report should help in evaluating the financial impact of our promotional campaigns. (Display Value in millions).
 
+-- For the purpose of convenience I have changed the column names as below.
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
 
@@ -58,16 +59,10 @@ FROM REVENUE;
 -- Additionally, provide rankings for the categories based on their ISU%. The report will include three Key fileds: category, ISU% and Rank Order.
 -- This information will assist in assessing the category-wise success and impact of the Diwali campaign on incremental Sales.
 
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
-
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
-
 WITH Diwali_Campaign AS (
     SELECT 
         p.category,
-        SUM(e.quantity_sold_after_promo*2) AS total_quantity_sold_after_promo
+        SUM(e.quantity_sold_after_promo) AS total_quantity_sold_after_promo
     FROM fact_events e
     JOIN dim_campaigns c
     ON e.campaign_id = c.campaign_id
@@ -101,11 +96,6 @@ ON dc.category = tsb.category;
 -- 5. Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns.
 -- The report will provide essential information including product name, category and ir %.
 -- This analysis helps identify the most successul products in terms of incremental revenue across our campaigns, assisting in product optimization.
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
-
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
 
 WITH Total_Revenue AS (
     SELECT 

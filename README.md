@@ -32,7 +32,16 @@ The project is about an imaginary retail giant called AtliQ Mart.
 
 AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of India. All their 50 stores ran a massive promotion during the Diwali 2023 and Sankranti 2024 (festive time in India) on their AtliQ branded products. <br>Through this exercise the sales director wants to understand which promotions did well and which did not so that they can make informed decisions for their next promotional period. <br>
 
-# 2. Live Interactive Dashboard
+# 2. Live Interactive Dashboard and Presentation
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?utm_content=DAF-Yua7_SE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">AtliQ Mart  Festival Sales Promotional Analysis</a> by Ravi Chandrika B
 
 #  3. Video Presentation Of The Project
 
@@ -59,8 +68,8 @@ All three stores from Mangalore are among the bottom 10 for Incremental Sold Uni
 
 **3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**<br>
 
-<img align="right" src="https://example.com/image.jpg" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-Generally, the top-performing stores are located in Tier 1 cities like Bengaluru and Chennai. However, stores in Tier 2 cities have not generated as much revenue.
+<img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/citywise.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
+Stores located in Tier 1 cities like Bengaluru and Chennai exhibit superior performance. Additionally, there's a notable correlation between the number of stores and revenue generation, suggesting that a higher store count contributes to increased revenue. Furthermore, selling a greater quantity of products also positively impacts revenue generation.
 <br><br><br><br><br><br><br>
 
 *******************************************
@@ -71,7 +80,7 @@ Generally, the top-performing stores are located in Tier 1 cities like Bengaluru
 **1. What are the top 2 promotion types that resulted in the highest Incremental Revenue?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-The top promotion types that resulted in the highest incremental revenue are "500 Cashback" and "BOGOF" (Buy One Get One Free).
+The top promotion types that resulted in the highest incremental revenue are "500 Cashback" and "BOGOF" (Buy One Get One Free). This is due to their effectiveness in incentivizing purchases. "500 Cashback" offers a direct monetary benefit to customers, encouraging them to make purchases to avail the cashback. On the other hand, "BOGOF" offers customers the perception of getting more value for their money, driving increased sales volume by providing an additional product for free with a purchase.
 <br><br><br><br><br><br><br><br><br>
 
 *******************************************
@@ -79,7 +88,7 @@ The top promotion types that resulted in the highest incremental revenue are "50
 **2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-The "25% off" and "50% off" promotion types are among the least effective in terms of driving incremental sold units. In fact, the "25% off" promotion type has a negative impact, indicating a decrease in sales. This suggests that these promotion types may not have been successful in attracting customers or encouraging additional purchases compared to other promotion types.
+"25% off" and "50% off" promotion types are among the least effective in terms of driving incremental sold units. These promotions may be less effective in driving incremental sales due to their reliance solely on price reduction, potentially leading to perceptions of lower product value. 
 <br><br><br><br>
 
 *******************************************
@@ -87,7 +96,7 @@ The "25% off" and "50% off" promotion types are among the least effective in ter
 **3. Is there any significance difference in the performance of discount -based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-It seems that 500 cashback and BOGOF promotions have shown better performance compared to discount-based promotions. These types of promotions have been effective in driving sales or attracting customers, indicating their significance in boosting revenue and engaging customers more effectively.
+500 Cashback and BOGOF promotions have outperformed discount-based offers, likely due to their perceived value addition beyond mere price reduction. By providing tangible benefits like cash returns or free items, these promotions effectively incentivize purchases and attract customers, thereby driving sales and enhancing revenue.
 <br><br><br><br><br><br>
 
 *******************************************
@@ -95,7 +104,7 @@ It seems that 500 cashback and BOGOF promotions have shown better performance co
 **4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
-500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. This means that it effectively increases the number of units sold while still preserving profitability. In other words, it attracts customers to make purchases without significantly compromising the profit margins of the products.
+500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. It offers a direct monetary benefit to customers, incentivizing purchases without requiring them to buy multiple items or wait for a discount. This immediate cashback appeal can attract more customers and lead to higher sales volume while still maintaining healthy profit margins.
 <br><br><br><br><br><br>
 
 *******************************************
@@ -116,7 +125,7 @@ The home appliance, combo 1, and home care categories experienced the most signi
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products_ha_prr.JPG" alt="Image" style="width: 500px; height: auto; margin-right: 10px;"><br><br>
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products_combo_prr.JPG" alt="Image" style="width: 500px; height: auto; margin-right: 10px;"><br><br>
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products_pc_prr.JPG" alt="Image" style="width: 500px; height: auto; margin-right: 10px;"><br><br>
-Certain products respond exceptionally well or poorly to promotions. For example, products like the waterproof immersion rod, high glo 15w LED bulb, and home essentials 8-product combo performed exceptionally well during the promotions. On the other hand, products belonging to the personal care category did not perform as well. This indicates that the effectiveness of promotions can vary significantly depending on the product category and the specific products being promoted.
+Yes, certain products respond exceptionally well or poorly to promotions. For example, products like the waterproof immersion rod, high glo 15w LED bulb, and home essentials 8-product combo performed exceptionally well during the promotions. On the other hand, products belonging to the personal care category did not perform that well. This indicates that the effectiveness of promotions can vary significantly depending on the product category and the specific products being promoted.
 <br><br><br>
 
 *******************************************
@@ -134,10 +143,10 @@ Certain product categories, such as home appliances, home care, grocery, and sta
 **1. Provide a list of products with base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free).**
 
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/product_name.JPG" alt="image" /> <br>
-Atliq_Double_Bedsheet_set and Atliq_waterproof_Immersion_Rod are the two products with base price greater than 500 which are featured under BOGOF (Buy One Get One Free) promo  type.<br>
+Atliq_Double_Bedsheet_set and Atliq_waterproof_Immersion_Rod are the two products with base price greater than 500 which are featured under BOGOF (Buy One Get One Free) promo type.<br>
 
 ~~~~sql
-SELECT DISTINCT(p.product_name)
+SELECT DISTINCT(p.product_name), e.base_price
  FROM fact_events e
 JOIN dim_products p
 ON p.product_code = e.product_code
@@ -169,30 +178,51 @@ ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 Diwali campaign generated the highest incremental revenue at 114.25 million, while the Sankranthi campaign yielded 72.20 million.<br>
 
 ~~~~sql
+-- For the purpose of convenience I have changed the column names as below.
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
 
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
+~~~~
 
+~~~~sql
+-- Adds a new column Total_Quantity_After_promo to the fact_events table.
+-- Populates it with the calculated values based on the given condition.
+ALTER TABLE fact_events
+ADD Total_Quantity_After_promo INT; -- Assuming Total_Quantity_After_promo is an integer value
+
+UPDATE fact_events
+SET Total_Quantity_After_promo = 
+    CASE 
+        WHEN promo_type = 'BOGOF' THEN quantity_sold_after_promo * 2
+        ELSE quantity_sold_after_promo
+    END;
+~~~~
+
+~~~~sql
+WITH REVENUE AS(
 SELECT 
     c.campaign_name,
-    ROUND(SUM(e.base_price * e.quantity_sold_before_promo) / 1000000,2) AS 'Before_Campaign_Total_Revenue(Million)',
+    ROUND(SUM(e.base_price * e.quantity_sold_before_promo) / 1000000,2) AS 'Before_Campaign_Total_Revenue_Million',
     ROUND(
 		SUM(
 			CASE 
-				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.75
-				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.67
-				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.50
-				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.quantity_sold_after_promo) - 500
-				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.quantity_sold_after_promo * 2)) * 0.5
+				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.75
+				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.67
+				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.50
+				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.Total_Quantity_After_promo) - 500
+				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.Total_Quantity_After_promo)) * 0.5
 				ELSE 0
 			END
-		) / 1000000,2) AS 'After_Campaign_Total_Revenue(Million)'
+		) / 1000000,2) AS 'After_Campaign_Total_Revenue_Million'
 FROM fact_events e
 JOIN dim_campaigns c
 ON e.campaign_id = c.campaign_id
-GROUP BY c.campaign_name;
+GROUP BY c.campaign_name
+)
+SELECT *, After_Campaign_Total_Revenue_Million - Before_Campaign_Total_Revenue_Million AS Incremental_Revenue_Million
+FROM REVENUE;
 ~~~~
 <br><br>
 
@@ -201,19 +231,13 @@ GROUP BY c.campaign_name;
 **4. Produce a Report that calculates the Incremental Sold Quantity (ISU%) for each category during the diwali campaign. Additionally, provide rankings for the categories based on their ISU%.**
 
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/category.JPG" alt="image" /><br>
-Home Appliances category exhibits the highest ISU% increase, followed by the Combo1 category. Notably, there is a remarkable 244.23% ISU% surge in the Home Appliances category, while Combo1 follows closely behind with a 202.36% increase.<br>
+Home Appliances category exhibits the highest ISU% increase, followed by the Home Care and Combo1 categories. Notably, there is a remarkable 588% ISU% surge in the Home Appliances category, while Home Care is at 203.14%, Combo1 follows closely behind with a 202.36% increase.<br>
 
 ~~~~sql
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
-
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
-
 WITH Diwali_Campaign AS (
     SELECT 
         p.category,
-        SUM(e.quantity_sold_after_promo) AS total_quantity_sold_after_promo
+        SUM(e.Total_Quantity_After_promo) AS total_quantity_sold_after_promo
     FROM fact_events e
     JOIN dim_campaigns c
     ON e.campaign_id = c.campaign_id
@@ -251,15 +275,10 @@ ON dc.category = tsb.category;
 **5. Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns.** 
 
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products.JPG" alt="image" /><br>
-The table shows, top 5 products ranked by Incremental Revenue Percentage across all campaigns. Atlique_waterproof_Immersion_Rod leads with an IR% of 266.19%, closely followed by Atliq_High_Glo_15W_LED_Bulb with an IR% of 262.98%.<br>
+Atlique_waterproof_Immersion_Rod leads with an IR% of 266.19%, closely followed by Atliq_High_Glo_15W_LED_Bulb with an IR% of 262.98%.
+Atliq_Double_Bedsheet_Set, Atliq_Curtains, Atliq_Home_Essential_8_Product_Combo made significant contribution to revenue generation.<br>
 
 ~~~~sql
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
-
-ALTER TABLE fact_events
-RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
-
 WITH Total_Revenue AS (
     SELECT 
         p.product_name,
@@ -267,11 +286,11 @@ WITH Total_Revenue AS (
         SUM(e.base_price * e.quantity_sold_before_promo) AS 'Before_Campaign_Total_Revenue',
 		SUM(
 			CASE 
-				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.75
-				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.67
-				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.50
-				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.quantity_sold_after_promo) - 500
-				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.quantity_sold_after_promo * 2)) * 0.5
+				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.75
+				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.67
+				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.50
+				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.Total_Quantity_After_promo) - 500
+				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.Total_Quantity_After_promo)) * 0.5
 				ELSE 0
 			END
 		) AS 'After_Campaign_Total_Revenue'
@@ -283,9 +302,9 @@ WITH Total_Revenue AS (
 SELECT 
     product_name,
     category,
-    ROUND(((After_Campaign_Total_Revenue - Before_Campaign_Total_Revenue) / Before_Campaign_Total_Revenue) * 100,2) AS IR_percentage
+    ROUND(((After_Campaign_Total_Revenue - Before_Campaign_Total_Revenue)* 100 / Before_Campaign_Total_Revenue) ,2) AS IR_percentage
 FROM Total_Revenue
-ORDER BY IR_percentage DESC
+ORDER BY ROUND(((After_Campaign_Total_Revenue - Before_Campaign_Total_Revenue)* 100 / Before_Campaign_Total_Revenue) ,2) DESC
 LIMIT 5;
 ~~~~
 <br><br>
