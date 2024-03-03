@@ -63,12 +63,20 @@ Generally, the top-performing stores are located in Tier 1 cities like Bengaluru
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The top promotion types that resulted in the highest incremental revenue are "500 Cashback" and "BOGOF" (Buy One Get One Free).
 
+
+
+
+
 *******************************************
 
 **2. What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/bottom2_promotype.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The "25% off" and "50% off" promotion types are among the least effective in terms of driving incremental sold units. In fact, the "25% off" promotion type has a negative impact, indicating a decrease in sales. This suggests that these promotion types may not have been successful in attracting customers or encouraging additional purchases compared to other promotion types.
+
+
+
+
 
 *******************************************
 
@@ -77,12 +85,20 @@ The "25% off" and "50% off" promotion types are among the least effective in ter
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 It seems that 500 cashback and BOGOF promotions have shown better performance compared to discount-based promotions. These types of promotions have been effective in driving sales or attracting customers, indicating their significance in boosting revenue and engaging customers more effectively.
 
+
+
+
+
 *******************************************
 
 **4. Which promotions strike the best balance between Incremental Sold Units and maintaining healthy margins?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. This means that it effectively increases the number of units sold while still preserving profitability. In other words, it attracts customers to make purchases without significantly compromising the profit margins of the products.
+
+
+
+
 
 *******************************************
 
@@ -94,6 +110,10 @@ It seems that 500 cashback and BOGOF promotions have shown better performance co
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/sales_lift_cat.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The home appliance, combo 1, and home care categories experienced the most significant increase in sales as a result of the promotions. 
 
+
+
+
+
 *******************************************
 
 **2. Are there specific products that respond exceptionally well or poorly to promotions?**<br>
@@ -103,12 +123,20 @@ The home appliance, combo 1, and home care categories experienced the most signi
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products_pc_prr.JPG" alt="Image" style="width: 500px; height: auto; margin-right: 10px;"><br><br>
 Certain products respond exceptionally well or poorly to promotions. For example, products like the waterproof immersion rod, high glo 15w LED bulb, and home essentials 8-product combo performed exceptionally well during the promotions. On the other hand, products belonging to the personal care category did not perform as well. This indicates that the effectiveness of promotions can vary significantly depending on the product category and the specific products being promoted.
 
+
+
+
+
 *******************************************
 
 **3. What is the correlation between product categoy and promotion type effectiveness?**<br>
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/prod_cate_effectivenss.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 Certain product categories, such as home appliances, home care, grocery, and staples, performed well in BOGOF promotions, indicating that this promotion type was effective in driving sales within these categories. Conversely, personal care products did not perform well, even with a 25% discount offer. 
+
+
+
+
 
 *******************************************
 
@@ -322,7 +350,7 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 
 
 
-Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.
+Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.<br><br>
 **Click image to view pdf**
 <div style="display:flex;">
     <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/ad-hoc-requests.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/business_request.JPG" alt="Image 1" style="width:40%; margin-right:20px"></a>    
