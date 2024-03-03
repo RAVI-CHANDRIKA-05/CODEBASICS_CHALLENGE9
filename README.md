@@ -20,11 +20,11 @@ The Codebasics Resume Project Challenge is an engaging initiative hosted by Code
 6. [Dataset Provided by Codebasics](#6-dataset-provided-by-codebasics)
 7. [Project Execution](#7-project-execution)
     1. [Tools Used](#71-tools-used)
-    2. [Prodecure Followed for Addressing Recommended Insights](#72-procedure-followed-for-addressing-recommended-insights)
-        - [Data Preparation](#721-data-preperation)
+    2. [Prodecure Followed for Addressing Recommended Insights](#72-prodecure-followed-for-addressing-recommended-insights)
+        - [Data Preparation](#721-data-preparation)
         - [Data Modeling](#722-data-modeling)
-        - [Dashboard Creation](#723-dasahboard-creation)
-    3. [Prodecure Followed for Addressing Business Requests](#73-procedure-followed-for-addressing-business-requests)
+        - [Dashboard Creation](#723-dashboard-creation)
+    3. [Prodecure Followed for Addressing Business Requests](#73-prodecure-followed-for-addressing-business-requests)
 
 ---
 
