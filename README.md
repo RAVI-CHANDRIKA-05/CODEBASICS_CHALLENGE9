@@ -244,3 +244,71 @@ ORDER BY IR_percentage DESC
 LIMIT 5;
 ~~~~
 
+# 5. The dataset provided by the Codebasics:
+**Thanks to Codebasics for providing this wonderful challenge.**<br>
+Here is the link to this challenge: [CodeBasics Resume Project Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)
+
+**Team provided 4 CSV files. Below is information regarding the columns described in the CSV files:**
+1. dim_campaigns
+2. dim_products
+3. dim_stores
+4. fact_events
+
+
+## 5.1 Column Description for dim_campaigns:
+- campaign_id: Unique identifier for each promotional campaign.
+- campaign_name: Descriptive name of the campaign (e.g., Diwali, Sankranti).
+- start_date: The date on which the campaign begins, formatted as DD-MM-YYYY.
+- end_date: The date on which the campaign ends, formatted as DD-MM-YYYY.
+
+
+*******************************************
+
+
+## 5.2 Column Description for dim_products:
+- product_code: Unique code assigned to each product for identification.
+- product_name: The full name of the product, including brand and specifics (e.g., quantity, size).
+- category: The classification of the product into broader categories such as Grocery & Staples, Home Care, Personal Care, Home Appliances, etc.
+
+
+*******************************************
+
+
+
+## 5.3 Column Description for dim_stores:
+- store_id: Unique code identifying each store location.
+- city: The city where the store is located, indicating the geographical market.
+
+
+*******************************************
+
+
+
+## 5.4 Column Description for fact_events:
+- event_id: Unique identifier for each sales event.
+- store_id: Refers to the store where the event took place, linked to the dim_stores table.
+- campaign_id: Indicates the campaign under which the event was recorded, linked to the dim_campaigns table.
+- product_code: The code of the product involved in the sales event, linked to the dim_products table.
+- base_price: The standard price of the product before any promotional discount.
+- promo_type: The type of promotion applied (e.g., percentage discount, BOGOF(Buy One Get One Free), cashback).
+- quantity_sold(before_promo): The number of units sold in the week immediately preceding the start of the campaign, serving as a baseline for comparison with promotional sales.
+- quantity_sold(after_promo): The quantity of the product sold after the promotion was applied.
+
+
+*******************************************
+
+
+
+Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.
+
+
+# 6. Power BI Dashboard Execution:
+## 6.1 Tools Used:
+
+MySQL for database management.
+Power BI for data visualization and dashboard creation.
+Excel for data preprocessing and transformation.
+
+## 6.2 Prodecure Followed:
+
+By leveraging MySQL, Power BI, and Excel, I was able to build a comprehensive dashboard that provides valuable insights into sales performance and marketing campaign effectiveness, facilitating data-driven decision-making.
