@@ -16,14 +16,14 @@ The Codebasics Resume Project Challenge is an engaging initiative hosted by Code
         - [Promotion Type Analysis](#4.2-promotion-type-analysis)
         - [Product and Category Analysis](#4.3-product-and-category-analysis)
     2. [Business Requests](#4.2-business-requests)
-5. [Dataset Provided by Codebasics](# 5-dataset-provided-by-Codebasics)
+5. [Dataset Provided by Codebasics](# 5-dataset-provided-by-codebasics)
 6. [Project Execution](#6-project-execution)
-    1 [Tools Used](#6.1-tools-used)
-    2 [Prodecure Followed for Addressing Recommended Insights](#6.2-procedure-followed-for-addressing-recommended-insights)
+    1. [Tools Used](#6.1-tools-used)
+    2. [Prodecure Followed for Addressing Recommended Insights](#6.2-procedure-followed-for-addressing-recommended-insights)
         - [Data Preparation](#6.2.1-data-preperation)
         - [Data Modeling](#6.2.2-data-modeling)
         - [Dashboard Creation](#6.2.3-dasahboard-creation)
-    3 [Prodecure Followed for Addressing Business Requests](#6.2-procedure-followed-for-addressing-business-requests)
+    3. [Prodecure Followed for Addressing Business Requests](#6.2-procedure-followed-for-addressing-business-requests)
 
 ---
 
