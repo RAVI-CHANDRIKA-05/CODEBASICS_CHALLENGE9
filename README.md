@@ -11,12 +11,19 @@ The Codebasics Resume Project Challenge is an engaging initiative hosted by Code
 2. [Live Interactive Dashboard](#2-live-interactive-dashboard)
 3. [Video Presentation Of The Project](#3-video-presentation-of-the-project)
 4. [Analysis and Insights](#4-analysis-and-insights)
-   1. [Recommended Insights](#4.1-recommended-insights)
-      - [Store Performance Analysis](#4.1.1-store-performance-analysis)
-      - [Promotion Type Analysis](#4.2-promotion-type-analysis)
-      - [Product and Category Analysis](#4.3-product-and-category-analysis)
-   2. [Business Requests](#4.2-business-requests)
+    1. [Recommended Insights](#4.1-recommended-insights)
+        - [Store Performance Analysis](#4.1.1-store-performance-analysis)
+        - [Promotion Type Analysis](#4.2-promotion-type-analysis)
+        - [Product and Category Analysis](#4.3-product-and-category-analysis)
+    2. [Business Requests](#4.2-business-requests)
 5. [Dataset Provided by Codebasics](# 5-dataset-provided-by-Codebasics)
+6. [Project Execution](#6-project-execution)
+    1 [Tools Used](#6.1-tools-used)
+    2 [Prodecure Followed for Addressing Recommended Insights](#6.2-procedure-followed-for-addressing-recommended-insights)
+        - [Data Preparation](#6.2.1-data-preperation)
+        - [Data Modeling](#6.2.2-data-modeling)
+        - [Dashboard Creation](#6.2.3-dasahboard-creation)
+    3 [Prodecure Followed for Addressing Business Requests](#6.2-procedure-followed-for-addressing-business-requests)
 
 ---
 
@@ -151,6 +158,7 @@ GROUP BY city
 ORDER BY  COUNT(DISTINCT(store_id)) DESC;
 ~~~~
 <br><br>
+
 *******************************************
 
 **3. Generate a report that displays each campaign alogn with the total revenue generated before and after the campaign?**
@@ -345,6 +353,13 @@ Excel for data preprocessing and transformation.
 * Cleaned and transformed the data as needed, ensuring consistency and accuracy.
 * Added Tier column to cities for extra input.
 
+Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.<br><br>
+**Click image to view pdf**
+<div style="display:flex;">
+    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/ad-hoc-requests.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/business_request.JPG" alt="Image 1" style="width:40%; margin-right:20px"></a>    
+    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended_Insights.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:40%;"></a>
+</div>
+
 ### 6.2.2 Data Modeling:
 
 * Designed the data model in Power BI, ensuring the relationships between tables is correct.
@@ -358,15 +373,9 @@ Excel for data preprocessing and transformation.
 
 ## 6.3 Prodecure Followed for Addressing Business Requests:
 
-Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.<br><br>
-**Click image to view pdf**
-<div style="display:flex;">
-    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/ad-hoc-requests.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/business_request.JPG" alt="Image 1" style="width:40%; margin-right:20px"></a>    
-    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended_Insights.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:40%;"></a>
-</div>
-
 * Extracted data from the MySQL database by crafting SQL queries tailored to the specific data requirements. 
 * Formulated SQL queries to retrieve essential information for fulfilling Business Requests effectively.
 * Ensured data accuracy by cross-referencing and validating the query results with visualizations generated in Power BI.<br>
 Created a presentation and video using Canva to provide a visually appealing and comprehensive submission.<br>
+
 By leveraging MySQL, Power BI, and Excel, I was able to build a comprehensive dashboard that provides valuable insights into sales performance and marketing campaign effectiveness, facilitating data-driven decision-making.
