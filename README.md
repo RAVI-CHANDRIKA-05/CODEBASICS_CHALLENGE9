@@ -117,7 +117,7 @@ The home appliance, combo 1, and home care categories experienced the most signi
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products_combo_prr.JPG" alt="Image" style="width: 500px; height: auto; margin-right: 10px;"><br><br>
 <img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/products_pc_prr.JPG" alt="Image" style="width: 500px; height: auto; margin-right: 10px;"><br><br>
 Certain products respond exceptionally well or poorly to promotions. For example, products like the waterproof immersion rod, high glo 15w LED bulb, and home essentials 8-product combo performed exceptionally well during the promotions. On the other hand, products belonging to the personal care category did not perform as well. This indicates that the effectiveness of promotions can vary significantly depending on the product category and the specific products being promoted.
-<br>
+<br><br><br>
 
 *******************************************
 
@@ -144,6 +144,8 @@ ON p.product_code = e.product_code
 WHERE e.base_price >500 
 AND e.promo_type = 'BOGOF';
 ~~~~
+<br><br>
+
 *******************************************
 
 **2. Generate a report that provides an overview of the number of stores in each city.**
@@ -192,6 +194,8 @@ JOIN dim_campaigns c
 ON e.campaign_id = c.campaign_id
 GROUP BY c.campaign_name;
 ~~~~
+<br><br>
+
 *******************************************
 
 **4. Produce a Report that calculates the Incremental Sold Quantity (ISU%) for each category during the diwali campaign. Additionally, provide rankings for the categories based on their ISU%.**
@@ -240,6 +244,8 @@ FROM Diwali_Campaign dc
 JOIN Total_Sold_Before tsb
 ON dc.category = tsb.category;
 ~~~~
+<br><br>
+
 *******************************************
 
 **5. Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns.** 
@@ -282,6 +288,8 @@ FROM Total_Revenue
 ORDER BY IR_percentage DESC
 LIMIT 5;
 ~~~~
+<br><br>
+
 *******************************************
 
 # 5. Dataset Provided by Codebasics:
