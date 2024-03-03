@@ -140,7 +140,7 @@ Yes, certain products respond exceptionally well or poorly to promotions. For ex
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/prod_cate_effectivenss.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 Certain product categories, such as home appliances, home care, grocery, and staples, performed well in BOGOF promotions, indicating that this promotion type was effective in driving sales within these categories. Conversely, personal care products did not perform well, even with a 25% discount offer. 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 *******************************************
 
