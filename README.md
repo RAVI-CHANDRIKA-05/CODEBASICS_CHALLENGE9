@@ -329,17 +329,6 @@ Here is the link to this challenge: [CodeBasics Resume Project Challenge](https:
 
 *******************************************
 
-
-
-Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.<br><br>
-**Click image to view pdf**
-<div style="display:flex;">
-    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/ad-hoc-requests.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/business_request.JPG" alt="Image 1" style="width:40%; margin-right:20px"></a>    
-    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended_Insights.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:40%;"></a>
-</div>
-
-
-
 # 6. Project Execution:
 
 ## 6.1 Tools Used:
@@ -368,6 +357,13 @@ Excel for data preprocessing and transformation.
 * Incorporated relevant charts, graphs, and slicers to analyze sales performance, campaign effectiveness, and product trends.
 
 ## 6.3 Prodecure Followed for Addressing Business Requests:
+
+Note: A database named `retail_events_db` includes all the tables mentioned above. This was used while writing SQL queries to find answers to business questions.<br><br>
+**Click image to view pdf**
+<div style="display:flex;">
+    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/ad-hoc-requests.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/business_request.JPG" alt="Image 1" style="width:40%; margin-right:20px"></a>    
+    <a href="https://github.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/blob/main/input_files/Recommended_Insights.pdf"><img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/recommendedinsights.JPG" alt="Image 2" style="width:40%;"></a>
+</div>
 
 * Extracted data from the MySQL database by crafting SQL queries tailored to the specific data requirements. 
 * Formulated SQL queries to retrieve essential information for fulfilling Business Requests effectively.
