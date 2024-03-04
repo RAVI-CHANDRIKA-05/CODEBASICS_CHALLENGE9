@@ -56,7 +56,7 @@ In this presentation, I'll walk you through the insights and findings from my an
 
 Here's the video presentation of the insights. Please have a look.
 
-![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/youtube.JPG)(https://www.youtube.com/watch?v=giR2HClR0t4)
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/youtube.JPG)](https://www.youtube.com/watch?v=giR2HClR0t4)
 
 # 5. Analysis and Insights
 
