@@ -73,7 +73,7 @@ All three stores from Mangalore are among the bottom 10 for Incremental Sold Uni
 
 **3. How does the performance of stores vary by city? Are there any common characteristics among the top-performing stores that could be leverages across other stores?**<br>
 
-<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/citywise.JPG" alt="Image" style="width: 350px; height: auto; margin-right: 10px;">
+<img src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/citywise.JPG" alt="Image" style="width: 450px; height: auto; margin-right: 10px;"><br><br><br>
 Stores located in Tier 1 cities like Bengaluru and Chennai exhibit superior performance. Additionally, there's a notable correlation between the number of stores and revenue generation, suggesting that a higher store count contributes to increased revenue. Furthermore, selling a greater quantity of products also positively impacts revenue generation.
 <br><br><br><br><br><br><br>
 
@@ -86,7 +86,7 @@ Stores located in Tier 1 cities like Bengaluru and Chennai exhibit superior perf
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/promotype_top2.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 The top promotion types that resulted in the highest incremental revenue are "500 Cashback" and "BOGOF" (Buy One Get One Free). This is due to their effectiveness in incentivizing purchases. "500 Cashback" offers a direct monetary benefit to customers, encouraging them to make purchases to avail the cashback. On the other hand, "BOGOF" offers customers the perception of getting more value for their money, driving increased sales volume by providing an additional product for free with a purchase.
-<br><br><br><br><br>
+<br><br><br><br>
 
 *******************************************
 
@@ -102,7 +102,7 @@ The top promotion types that resulted in the highest incremental revenue are "50
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 500 Cashback and BOGOF promotions have outperformed discount-based offers, likely due to their perceived value addition beyond mere price reduction. By providing tangible benefits like cash returns or free items, these promotions effectively incentivize purchases and attract customers, thereby driving sales and enhancing revenue.
-<br><br><br><br><br>
+<br><br><br><br>
 
 *******************************************
 
@@ -110,7 +110,7 @@ The top promotion types that resulted in the highest incremental revenue are "50
 
 <img align="right" src="https://raw.githubusercontent.com/RAVI-CHANDRIKA-05/CODEBASICS_CHALLENGE9/main/images/isu_vs_ir.JPG" alt="Image" style="width: 300px; height: auto; margin-right: 10px;">
 500 cashback promotion strikes the best balance between Incremental Sold Units and maintaining healthy margins. It offers a direct monetary benefit to customers, incentivizing purchases without requiring them to buy multiple items or wait for a discount. This immediate cashback appeal can attract more customers and lead to higher sales volume while still maintaining healthy profit margins.
-<br><br><br><br><br>
+<br><br><br><br>
 
 *******************************************
 
