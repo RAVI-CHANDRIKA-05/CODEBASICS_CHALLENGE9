@@ -56,7 +56,7 @@ In this presentation, I'll walk you through the insights and findings from my an
 
 Here's the video presentation of the insights. Please have a look.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/giR2HClR0t4/0.jpg)](https://www.youtube.com/watch?v=giR2HClR0t4)
+![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/giR2HClR0t4/0.jpg)(https://www.youtube.com/watch?v=giR2HClR0t4)
 
 # 5. Analysis and Insights
 
