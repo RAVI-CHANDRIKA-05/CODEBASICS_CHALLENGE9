@@ -50,7 +50,6 @@ In this presentation, I'll walk you through the insights and findings from my an
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF-Yua7_SE&#x2F;I8Hj8V3eiAF44nwZukEw4Q&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div><br>
-<a href="link" target="_blank" rel="noopener">AtliQ Mart  Festival Sales Promotional Analysis</a> by Ravi Chandrika B
 
 #  4. Video Presentation Of The Project
 
