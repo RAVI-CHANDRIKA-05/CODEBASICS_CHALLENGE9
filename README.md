@@ -35,9 +35,13 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 
 # 2. Live Interactive Dashboard
 
+Checkout the live interactive dashboard here. Made in Power BI. 
+
 <iframe title="AtliQ_Mart_Festival_Sales_Promotional_Analysis" width="854" height="480" src="https://app.powerbi.com/view?r=eyJrIjoiMzAxMDYyMDUtMzZmYS00ODdiLWEwYjQtMDg0MWM1Mjg4Y2E5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection52cd1bc4e9fbeb1610fb" frameborder="0" allowFullScreen="true"></iframe>
 
 # 3. Presentation of Key Insights
+
+In this presentation, I'll walk you through the insights and findings from my analysis of AtliQ Mart's promotional campaigns we will look at the sales performance, promotion effectiveness, and key trends observed during these promotional periods.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -49,6 +53,10 @@ AtliQ Mart is a retail giant with over 50 supermarkets in the southern region of
 <a href="link" target="_blank" rel="noopener">AtliQ Mart  Festival Sales Promotional Analysis</a> by Ravi Chandrika B
 
 #  4. Video Presentation Of The Project
+
+Here's the video presentation of the insights. Please have a look.
+
+<iframe title="Video Presentation Of The Project" width="854" height="480" src="https://youtu.be/giR2HClR0t4" frameborder="0" allowFullScreen="true"></iframe>
 
 # 5. Analysis and Insights
 
