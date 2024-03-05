@@ -32,6 +32,19 @@ RENAME COLUMN `quantity_sold(before_promo)` TO quantity_sold_before_promo;
 ALTER TABLE fact_events
 RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
 
+-- Add a new column Total_Quantity_After_promo to the fact_events table.
+-- Populate it with the calculated values based on the given condition.
+ALTER TABLE fact_events
+ADD Total_Quantity_After_promo INT; -- Assuming Total_Quantity_After_promo is an integer value
+
+-- Get the report that displays each campaign alogn with the total revenue generated before and after the campaign and incremental revenue.
+UPDATE fact_events
+SET Total_Quantity_After_promo = 
+    CASE 
+        WHEN promo_type = 'BOGOF' THEN quantity_sold_after_promo * 2
+        ELSE quantity_sold_after_promo
+    END;
+  
 WITH REVENUE AS(
 SELECT 
     c.campaign_name,
@@ -39,11 +52,11 @@ SELECT
     ROUND(
 		SUM(
 			CASE 
-				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.75
-				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.67
-				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.50
-				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.quantity_sold_after_promo) - 500
-				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.quantity_sold_after_promo * 2)) * 0.5
+				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.75
+				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.67
+				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.50
+				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.Total_Quantity_After_promo) - 500
+				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.Total_Quantity_After_promo)) * 0.5
 				ELSE 0
 			END
 		) / 1000000,2) AS 'After_Campaign_Total_Revenue_Million'
@@ -62,7 +75,7 @@ FROM REVENUE;
 WITH Diwali_Campaign AS (
     SELECT 
         p.category,
-        SUM(e.quantity_sold_after_promo) AS total_quantity_sold_after_promo
+        SUM(e.Total_Quantity_After_promo) AS total_quantity_sold_after_promo
     FROM fact_events e
     JOIN dim_campaigns c
     ON e.campaign_id = c.campaign_id
@@ -104,11 +117,11 @@ WITH Total_Revenue AS (
         SUM(e.base_price * e.quantity_sold_before_promo) AS 'Before_Campaign_Total_Revenue',
 		SUM(
 			CASE 
-				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.75
-				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.67
-				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.quantity_sold_after_promo) * 0.50
-				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.quantity_sold_after_promo) - 500
-				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.quantity_sold_after_promo * 2)) * 0.5
+				WHEN e.promo_type = '25% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.75
+				WHEN e.promo_type = '33% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.67
+				WHEN e.promo_type = '50% OFF' THEN (e.base_price * e.Total_Quantity_After_promo) * 0.50
+				WHEN e.promo_type = '500 Cashback' THEN (e.base_price * e.Total_Quantity_After_promo) - 500
+				WHEN e.promo_type = 'BOGOF' THEN (e.base_price * (e.Total_Quantity_After_promo)) * 0.5
 				ELSE 0
 			END
 		) AS 'After_Campaign_Total_Revenue'

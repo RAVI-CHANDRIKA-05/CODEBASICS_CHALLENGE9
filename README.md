@@ -199,8 +199,8 @@ RENAME COLUMN `quantity_sold(after_promo)` TO quantity_sold_after_promo;
 ~~~~
 
 ~~~~sql
--- Adds a new column Total_Quantity_After_promo to the fact_events table.
--- Populates it with the calculated values based on the given condition.
+-- Add a new column Total_Quantity_After_promo to the fact_events table.
+-- Populate it with the calculated values based on the given condition.
 ALTER TABLE fact_events
 ADD Total_Quantity_After_promo INT; -- Assuming Total_Quantity_After_promo is an integer value
 
@@ -213,6 +213,7 @@ SET Total_Quantity_After_promo =
 ~~~~
 
 ~~~~sql
+-- Get the report that displays each campaign alogn with the total revenue generated before, after the campaign and incremental revenue.
 WITH REVENUE AS(
 SELECT 
     c.campaign_name,
